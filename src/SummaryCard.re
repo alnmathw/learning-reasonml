@@ -56,5 +56,16 @@ let make = () => {
                 ")}
             </p>
         </div>
+
+        /* learn more button */
+        <div className = "card-learn-more-div"> 
+            <button className = "card-button button-learn-more"> 
+                {React.string("Learn More")}
+            </button>
+        </div>
+
+        <hr/>
+
+        /* social media icons */
     </div>
 }
