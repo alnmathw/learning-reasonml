@@ -2,7 +2,7 @@
 let make = () => {
 <nav className="navbar"> 
     <div className = "navbar-brand-div"> 
-        <a className="navbar-brand r-active" href="#"> {React.string("Clean Code")} </a> 
+        <a className="navbar-brand" href="#"> {React.string("Clean Code")} </a> 
         <br/> <p className="navbar-sub-brand"> {React.string("All Things Programming")} </p>
     </div>
 
@@ -11,7 +11,7 @@ let make = () => {
     </div>
 
     <div> 
-        <a className="navbar-item active" href="#"> {React.string("Resume")} </a> 
+        <a className="navbar-item" href="#"> {React.string("Resume")} </a> 
     </div>
 
     <div> 

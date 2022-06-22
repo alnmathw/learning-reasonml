@@ -67,5 +67,8 @@ let make = () => {
         <hr/>
 
         /* social media icons */
+        <a href="#" 
+            className="icon-social-media fa fa-github"></a>
+        <a href = "#" className="icon-social-media fa fa-envelope"></a>
     </div>
 }

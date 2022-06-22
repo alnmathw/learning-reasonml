@@ -2,6 +2,16 @@
 # yarn lockfile v1
 
 
+bootstrap@^5.1.3:
+  version "5.1.3"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-5.1.3.tgz#ba081b0c130f810fa70900acbc1c6d3c28fa8f34"
+  integrity sha512-fcQztozJ8jToQWXxVuEyXWW+dSo8AiXWKwiSSrKWsRB/Qt+Ewwza+JWoLKiTuQLaEPhdNAJ7+Dosc9DOIqNy7Q==
+
+bs-css@^15.3.0:
+  version "15.3.0"
+  resolved "https://registry.yarnpkg.com/bs-css/-/bs-css-15.3.0.tgz#c497bf959cc86b8e535addfd6d16f74001f47374"
+  integrity sha512-Y/I2G4a4xLb9aqd1Qhx9Tae9J1DBM2eqSMET7iLwuiSdt8PaT6InnaDgLk9f0hGk/9O/6CCpZ/xlntVf+ZSkLQ==
+
 bs-platform@^9.0.2:
   version "9.0.2"
   resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-9.0.2.tgz#a6eac70eb8924a322556dacaccbfbc9b2a0d3a37"
