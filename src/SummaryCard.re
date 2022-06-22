@@ -18,5 +18,14 @@ let make = () => {
         <div className = "card-title-text"> 
             <p> {React.string("Clean Code Programming")} </p>
         </div>
+
+        <div className = "card-title-email"> 
+            <p> 
+                <a href="mailto:clean.code.otr@gmail.com"
+                    className = "card-text-email"> 
+                    {React.string("clean.code.otr@gmail.com")}
+                </a>
+            </p>
+        </div>
     </div>
 }

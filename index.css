@@ -116,9 +116,24 @@ transform: translate(-50%, -50%);
 
     /* Summary Title Text Card CSS */
 .card-title-text {
-    padding: 20px 0px;
+    padding: 20px 0px 0px 0px;
     font-size: 28px;
     font-weight: bold;
     text-align: justify;
     font-family: Ubuntu, sans-serif;
+}
+
+    /* Summary Title Text Card CSS */
+.card-title-email {
+    padding: 0px 0px;
+    font-size: 20px;
+}
+
+.card-text-email {
+    text-decoration: none;
+    color: #2b6777;
+}
+
+.card-text-email:hover {
+    color: cornflowerblue
 }
