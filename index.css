@@ -125,15 +125,27 @@ transform: translate(-50%, -50%);
 
     /* Summary Title Text Card CSS */
 .card-title-email {
-    padding: 0px 0px 10px 0px;
-    font-size: 20px;
+    padding: 0px 0px 4px 0px;
 }
 
 .card-text-email {
     text-decoration: none;
     color: #2b6777;
+    font-size: 20px;
+    font-family: Lora, serif;
 }
 
 .card-text-email:hover {
     color: cornflowerblue
+}
+
+.card-about-header-div {
+    padding: 8px 0px 0px 0px;
+}
+
+.card-about-header-div {
+    font-family: Ubuntu, sans-serif;
+    font-weight: bold;
+    color:#111;
+    font-size: 20px; 
 }

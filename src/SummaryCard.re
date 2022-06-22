@@ -30,5 +30,19 @@ let make = () => {
         </div>
 
         <hr/>
+
+        /* about header */
+        <div className = "card-about-header-div">
+            <p className = "card-about-header-text">    
+                {React.string("About")}
+            </p>
+        </div>
+
+        /* about text */
+        <div className = "card-about-text-div">
+            <p className = "card-about-content-text">    
+                {React.string("Ojffajfa")}
+            </p>
+        </div>
     </div>
 }
