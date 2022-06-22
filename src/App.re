@@ -1,4 +1,7 @@
 [@react.component]
 let make = () => {
-  <div> {React.string("Hello")} </div>;
+  <div> 
+      <Navbar/>
+      <SummaryCard/>
+  </div>
 };

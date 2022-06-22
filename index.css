@@ -1,0 +1,64 @@
+/*
+    Body Container
+*/
+
+body {
+    background-color: #f2f2f2;
+    box-sizing:content-box;
+}
+
+/* 
+    Navbar CSS 
+*/
+
+.navbar {
+    background-color: #FFFFFF;
+    padding: 8px 30px;     
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr 0.5fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: stretch;
+    text-align: justify;
+    border-radius: 5px;
+    position: sticky;
+    border-bottom: 1.5px solid #52ab98;
+    border-bottom-right-radius: 50px 20px;
+}
+
+.navbar-brand {
+    font-size: larger;
+    font-weight: 200;
+    margin-left: 20px;
+}
+
+.navbar-brand:hover {
+    color: #52ab98;
+    font-weight: 500;
+}
+
+.navbar-sub-brand {
+    font-size: smaller;
+    font-style: italic;
+    font-size: 200;
+}
+
+.navbar-brand-div {
+    border-right: 1px dotted grey;
+}
+
+.navbar-item {
+    text-decoration: none;
+    padding: 30px;
+    color: #111;
+    /*border-right: 0.5px solid black;*/
+    line-height: 55px;
+    font-size: medium;
+}
+
+.navbar-last-item {
+    border-right: none;
+}
+
+.navbar-item:hover {
+    background-color: #f2f2f2;
+    color: #52ab98;
+}
