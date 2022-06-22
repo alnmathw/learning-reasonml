@@ -77,23 +77,8 @@ body {
     background-color: #FFFFFF;
     padding: 30px;
 }
-
-/* 
-
-.card-logo {
-    border: 1px black solid;
-    border-radius: 50%;
-    height: 112px;
-    width: 112px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-*/
-
-.card-title-component {
+    /* Summary Logo Card CSS */
+.card-title-logo {
     display: grid;
     position: relative;
 }
@@ -106,7 +91,7 @@ body {
     text-align: center;
 }
 
-.card-title-component:hover .card-logo-overlay {
+.card-title-logo:hover .card-logo-overlay {
     opacity: 1;
   }
 
@@ -119,12 +104,21 @@ body {
     background-color: #2b6777;
   }
   
-  .card-logo-text {
-    color: #f2f2f2;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
+.card-logo-text {
+color: #f2f2f2;
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+}
+
+    /* Summary Title Text Card CSS */
+.card-title-text {
+    padding: 20px 0px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: justify;
+    font-family: Ubuntu, sans-serif;
+}
