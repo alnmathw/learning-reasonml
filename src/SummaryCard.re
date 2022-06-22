@@ -19,6 +19,7 @@ let make = () => {
             <p> {React.string("Clean Code Programming")} </p>
         </div>
 
+        /* email text */
         <div className = "card-title-email"> 
             <p> 
                 <a href="mailto:clean.code.otr@gmail.com"
@@ -27,5 +28,7 @@ let make = () => {
                 </a>
             </p>
         </div>
+
+        <hr/>
     </div>
 }
