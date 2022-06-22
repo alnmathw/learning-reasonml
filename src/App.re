@@ -1,7 +1,14 @@
 [@react.component]
+
 let make = () => {
-  <div> 
+  <div className = "Page"> 
+    <div className = "pageHead">
       <Navbar/>
-      <SummaryCard/>
+    </div>
+      <div className = "pageBody">
+        <SummaryCard/>
+      </div>
+      <div className = "pageHead">
+      </div>
   </div>
 };
