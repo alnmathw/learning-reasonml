@@ -41,7 +41,19 @@ let make = () => {
         /* about text */
         <div className = "card-about-text-div">
             <p className = "card-about-content-text">    
-                {React.string("Ojffajfa")}
+                {React.string("
+                    Hi, my name is Alan M. I like building things. 
+                    I am a fullstack software engineer at Investree. 
+                    I use Vuejs and Kotlin to build internal tools and enterprise software.
+                    Before Investree, I was a trading analyst at Kredens Capital and Singular Asset Management.
+                ")}
+            </p>
+            <p className = "card-about-content-text"> 
+            {React.string("
+                    I made Clean Code to document my programming journey and learn more about functional languages.
+                    This website is built using ReasonML and OCaml.
+                    Work aside, I also enjoy trading, probability, hiking and Dota 2.
+                ")}
             </p>
         </div>
     </div>
