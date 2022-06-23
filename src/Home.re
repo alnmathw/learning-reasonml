@@ -26,23 +26,25 @@ let make = () => {
                         Please feel free to read more
                     ",
            )}
-          <a href="#"> {React.string("about me,")} </a>
+          <a href="#" className = "home-item-link"> 
+            {React.string("about me,")} 
+          </a>
           {React.string(
              "
                     or you can check out
                     ",
            )}
-          <a href="#"> {React.string("my resume,")} </a>
+          <a href="#" className = "home-item-link"> {React.string("my resume,")} </a>
           {React.string(" ")}
-          <a href="#"> {React.string("projects,")} </a>
+          <a href="#" className = "home-item-link"> {React.string("projects,")} </a>
           {React.string("
                     view
                     ")}
-          <a href="#"> {React.string("site statistics,")} </a>
+          <a href="#" className = "home-item-link"> {React.string("site statistics,")} </a>
           {React.string("
                     or
                     ")}
-          <a href="#"> {React.string("contact me.")} </a>
+          <a href="#" className = "home-item-link"> {React.string("contact me.")} </a>
         </p>
       </div>
       <div className="home-context-text">
@@ -52,7 +54,7 @@ let make = () => {
                         The code for my website is available
                     ",
            )}
-          <a href=""> {React.string("here.")} </a>
+          <a href="#" className = "home-item-link"> {React.string("here.")} </a>
         </p>
       </div>
     </div>
