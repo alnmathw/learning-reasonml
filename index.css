@@ -208,6 +208,7 @@ body {
     box-shadow: 0 4px 0 0 #2b6777;
     background-color: #FFFFFF;
     padding: 30px;
+    height: fit-content;
 }
 
 /* Home Title Div */
@@ -237,7 +238,7 @@ body {
 }
 
 .home-content-div {
-    padding: 32px 0px 0px 32px;
+    padding: 32px;
 }
 
 .home-content-text {
