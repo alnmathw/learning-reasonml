@@ -15,7 +15,7 @@ body {
     background-color: #FFFFFF;
     padding: 8px 30px;
     display: grid;
-    grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr 0.5fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 1fr 1fr 1fr 1fr;
     align-items: stretch;
     text-align: justify;
     border-radius: 5px;
@@ -66,7 +66,7 @@ body {
 .pageBody {
     padding: 40px 80px;
     display: grid;
-    grid-template-columns: 30% auto;
+    grid-template-columns: 30% 5% auto;
 }
 
 /* Summary Card CSS */
@@ -120,6 +120,7 @@ body {
     font-weight: bold;
     text-align: justify;
     font-family: Ubuntu, sans-serif;
+    color: #414A4C
 }
 
 /* Summary Title Email Card CSS */
@@ -147,7 +148,7 @@ body {
 .card-about-header-text {
     font-family: Ubuntu, sans-serif;
     font-weight: bold;
-    color: #111;
+    color: #414A4C;
     font-size: 20px;
 }
 
@@ -199,5 +200,38 @@ body {
 }
 
 .fa-github {
-    color: black; 
+    color: black;
+}
+
+/* Home Card CSS */
+.home-card {
+    box-shadow: 0 4px 0 0 #2b6777;
+    background-color: #FFFFFF;
+    padding: 30px;
+}
+
+/* Home Title Div */
+.home-title-div {
+    padding: 32px 0px 0px 28px;
+}
+
+/* Home Title Text */
+.home-title-text {
+    font-family: Ubuntu, sans-serif;
+    font-size: xx-large;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #414A4C
+}
+
+.home-subtitle-div {
+    padding: 0px 104px 4px 28px;
+}
+
+.home-subtitle-text {
+    font-size: medium;
+    letter-spacing: 2px;
+    text-align: justify;
+    color: #1B1212;
 }

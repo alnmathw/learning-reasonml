@@ -19,6 +19,10 @@ let make = () => {
     </div>
 
     <div> 
+        <a className="navbar-item" href="#"> {React.string("Statistics")} </a> 
+    </div>
+
+    <div> 
         <a className="navbar-item navbar-last-item" href="#"> {React.string("Contact")} </a> 
     </div>
 </nav>

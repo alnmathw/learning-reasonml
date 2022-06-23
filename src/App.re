@@ -7,6 +7,8 @@ let make = () => {
     </div>
       <div className = "pageBody">
         <SummaryCard/>
+        <WhiteSpace />
+        <Home />
       </div>
       <div className = "pageHead">
       </div>

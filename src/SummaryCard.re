@@ -50,9 +50,8 @@ let make = () => {
             </p>
             <p className = "card-about-content-text"> 
             {React.string("
-                    I made Clean Code to document my programming journey and learn more about functional languages.
-                    This website is built using ReasonML and OCaml.
                     Work aside, I also enjoy trading, probability, hiking and Dota 2.
+                    Feel free to contact me on social media. 
                 ")}
             </p>
         </div>
