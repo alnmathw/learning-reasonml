@@ -258,3 +258,17 @@ body {
     text-decoration: underline #52ab98 dashed 0.5px;
     text-underline-offset: 8px;
 }
+
+.contact-card-text-email {
+    text-decoration: none;
+    color: #52ab98;
+    font-family: Lora, serif;
+    font-weight: 700;
+}
+
+.contact-content-div {
+    padding: 0px 0px 0px 10px;
+}
+/*
+    Remember to Refactor Code Later 
+*/
